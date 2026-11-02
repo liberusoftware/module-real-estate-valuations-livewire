@@ -12,10 +12,14 @@ final class PropertyValuationEstimator extends Component
 {
     /** @var array<string, mixed> */
     public array $property = [];
+
     public int $comparablesCount = 0;
+
     public int $trainingSamples = 0;
+
     /** @var array<string, mixed>|null */
     public ?array $valuation = null;
+
     public ?string $error = null;
 
     /** @param array<string, mixed> $property */
